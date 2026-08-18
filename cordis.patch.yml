@@ -1,0 +1,8 @@
+# dsh-glass-ui 组合包层：一个插件行。
+# 安装: dsh plugin --profile web add <本目录>   (会自动应用本 patch 层)
+# 卸载: dsh plugin --profile web remove dsh-glass-ui
+#
+# 本插件为纯客户端外观插件，无宿主侧配置项。
+- insert:
+    - id: dsh-glass-ui
+      name: dsh-glass-ui
